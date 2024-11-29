@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Validação de Valores</title>
+</head>
+<body>
+    <form id="formulario" onsubmit="return validarFormulario(event)">
+        <h2>Validação de Valores</h2>
+        
+        <label for="valorA">Valor A:</label>
+        <input type="number" id="valorA" name="valorA" required>
+        
+        <label for="valorB">Valor B:</label>
+        <input type="number" id="valorB" name="valorB" required>
+        
+        <button type="submit">Validar</button>
+
+        
+        <div id="mensagem" class="mensagem"></div>
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+</html>
