@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    border-radius: 8px;
+    background-color: white;
+    margin-top: 7em;
+    width: 100%;
+    max-width: 550px;
+    padding: 60px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, .3);
+}
+.col label {
+    margin-top: 8px;
+}
+.col button {
+    display: block;
+    margin-top: 30px;
+}
