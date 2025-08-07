@@ -86,3 +86,4 @@ function Forma(nome, tipo, vantagem, desvantagem, evolucao){
 
     console.log(pokemon2.getVantagem())
     console.log(pokemon2.getDesvantagem())
+
